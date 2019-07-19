@@ -7,10 +7,13 @@
 //
 
 import SwiftUI
-
+`
 struct ContentView : View {
     var body: some View {
         Text("Hello World")
+            .background(Color.blue)
+            .frame(width: 300, height: 200)
+            .background(Color.red)
     }
 }
 
