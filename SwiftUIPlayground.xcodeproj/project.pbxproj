@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1147A2F22F17A60003DC870 /* LayoutExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1147A2E22F17A60003DC870 /* LayoutExamplesView.swift */; };
 		A1662DC922CC1782002D24FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1662DC822CC1782002D24FF /* AppDelegate.swift */; };
 		A1662DCB22CC1782002D24FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1662DCA22CC1782002D24FF /* SceneDelegate.swift */; };
 		A1662DCF22CC1784002D24FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1662DCE22CC1784002D24FF /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1147A2E22F17A60003DC870 /* LayoutExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LayoutExamplesView.swift; path = ../../../../../System/Volumes/Data/Users/noahgilmore/code/SwiftUIPlayground/Shared/LayoutExamplesView.swift; sourceTree = "<group>"; };
 		A1662DC522CC1782002D24FF /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1662DC822CC1782002D24FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1662DCA22CC1782002D24FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				A18EA32C22E4A8BA00785DF0 /* ExamplesListView.swift */,
 				A18EA32F22E4AA1600785DF0 /* ContextMenuView.swift */,
+				A1147A2E22F17A60003DC870 /* LayoutExamplesView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				A18EA33022E4AA1600785DF0 /* ContextMenuView.swift in Sources */,
 				A1662DCB22CC1782002D24FF /* SceneDelegate.swift in Sources */,
 				A18EA32D22E4A8BA00785DF0 /* ExamplesListView.swift in Sources */,
+				A1147A2F22F17A60003DC870 /* LayoutExamplesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

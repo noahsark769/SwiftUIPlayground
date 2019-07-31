@@ -11,11 +11,13 @@ import SwiftUI
 enum ExampleType: String, CaseIterable {
     case contextMenus = "Context Menus"
     case dragAndDrop = "Drag and Drop"
+    case layout = "Layout"
 
     var destinationView: AnyView {
         switch self {
         case .contextMenus: return AnyView(ContextMenuView())
         case .dragAndDrop: return AnyView(Color.pink)
+        case .layout: return AnyView(LayoutExamplesView())
         }
     }
 }
@@ -52,7 +54,6 @@ struct ExamplesListViewiOS : View {
                 }
             }
                 .navigationBarTitle("Examples")
-                .listStyle(.sidebar)
             Color.pink
         }
     }
